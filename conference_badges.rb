@@ -14,10 +14,10 @@ end
 
 def assign_rooms(names)
   assigned_room = []
-
-  names.each do |name, index|
-    assigned_room.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
-
+  index = 1
+  names.each do |name|
+    assigned_room.push("Hello, #{name}! You'll be assigned to room #{index}!")
+    index += 1
   end
   return assigned_room
 end
