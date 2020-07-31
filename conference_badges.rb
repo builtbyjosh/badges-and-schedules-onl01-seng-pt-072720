@@ -12,7 +12,7 @@ def batch_badge_creator(names)
   return batch
 end
 
-def assign_rooms(name)
+def assign_rooms(names)
   assigned_room = []
   names.each do |name|
     count = 1
