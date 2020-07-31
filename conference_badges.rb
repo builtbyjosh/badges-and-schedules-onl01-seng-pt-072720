@@ -19,5 +19,5 @@ def assign_rooms(names)
     assigned_room.push("Hello, #{name}! You'll be assigned to room #{count}!")
     count += 1
   end
-  return assigned_rooms
+  return assigned_room
 end
